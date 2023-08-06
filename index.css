@@ -7,8 +7,9 @@ body {
   display: flex;
   flex-direction: column;
   flex: auto;
-  /*justify-content: space-between;*/
-  height: 1912px;
+  justify-content: space-between;
+  height: 1920px;
+  margin: 0;
 }
 
 /*Header Part CSS*/
@@ -47,7 +48,7 @@ button {
   border-radius: 10px;
 }
 
-img {
+.welcome img {
   background-color: red;
   margin: 100px;
   width: 35%;
@@ -75,21 +76,45 @@ img {
 /*Info Part*/
 .info {
   text-align: center;
+  margin: 120px 60px;
 }
+
+.info h1 {
+  font-size: 40px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+}
+
+.items img {
+  background-color: #1F2937;
+  width: 500px;
+  height: 800px;
+  border: 3px solid #3882f6;
+  border-radius: 30px;
+  padding: 100px 80px;
+  margin: 50px;
+  margin-bottom: 0;
+}
+
 
 /*Quote Part*/
 .quote {
-  width: 2000px;
-  padding: 70px 50px;
-  margin: auto auto;
+  width: 100%;
+  padding: 150px 50px;
   text-align: center;
   background-color: #e5e7eb;
 }
 
 .quote h1 {
- font-size: 31px;
+ font-size: 40px;
  font-style: italic;
  font-weight: light;
+ max-width: 50%;
+ margin: auto;
+ margin-top: 50px;
 }
 
 .quote img {
@@ -97,7 +122,7 @@ img {
   width: 200px;
   margin: 0 0;
   border-radius: 20px;
-  border: 10px solid black;
+  border: 5px solid black;
 }
 
 .quote p {
@@ -108,6 +133,31 @@ img {
 
 
 /*Sign Up Part*/
+.sign {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 1200px;
+  padding: 80px 200px;
+  margin: 160px auto;
+}
+
+.sign h3, .sign p {
+  margin: 0;
+
+}
+
+.sign.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign button {
+  padding: 10px 30px;
+}
 
 
 /*Footer Part*/
@@ -118,6 +168,7 @@ footer {
   background-color: #1F2937;
   font-size: 18px;
   color: #e5e7eb;
+  padding: 60px;
 }
 
 /*Others*/
