@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  /*justify-content: space-between;*/
+  height: 1912px;
+}
+
+/*Header Part CSS*/
+.header {
+  background-color: #1F2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerMain, .links{
+  display: flex;
+  flex: 1;
+  gap: 10px;
+  padding: 10px 30px;
+}
+
+.links {
+  justify-content: end;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeContent {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 100px;
+}
+
+button {
+  padding: 10px 0px;
+  max-width: 200px;
+  border-radius: 10px;
+}
+
+img {
+  background-color: red;
+  margin: 100px;
+  width: 35%;
+}
+
+/*Header Part Editing*/
+.headerLogoText {
+  font-size: 24px;
+  color: #f9faf8
+}
+
+.mainText {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8
+}
+
+.subText {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+
+
+/*Info Part*/
+.info {
+  text-align: center;
+}
+
+/*Quote Part*/
+.quote {
+  width: 2000px;
+  padding: 70px 50px;
+  margin: auto auto;
+  text-align: center;
+  background-color: #e5e7eb;
+}
+
+.quote h1 {
+ font-size: 31px;
+ font-style: italic;
+ font-weight: light;
+}
+
+.quote img {
+  height: 200px;
+  width: 200px;
+  margin: 0 0;
+  border-radius: 20px;
+  border: 10px solid black;
+}
+
+.quote p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+
+
+/*Sign Up Part*/
+
+
+/*Footer Part*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/*Others*/
+a {
+  text-decoration: none;
+  color: white;
+}
