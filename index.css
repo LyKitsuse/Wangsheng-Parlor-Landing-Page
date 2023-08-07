@@ -10,24 +10,32 @@ body {
   justify-content: space-between;
   height: 1920px;
   margin: 0;
-  background-image: url(assets/wangsheng.png);
-  background-size: auto 70%;
+  background-image: url(assets/wuwang\ hill.png);
+  background-size: auto 100%;
   backdrop-filter: blur(5px);
 }
 
 /*Header Part CSS*/
 .header {
-  background-color: rgba(89, 61, 62, 0.8);
+  background-color: rgba(89, 61, 62, 0.4);
   text-shadow: 2px 2px 6px black, 0 0 1em black, 0 0 0.2em black;
   backdrop-filter: blur(5px);
+  border-radius: 80px;
   display: flex;
   flex-direction: column;
+  width: 1600px;
+  margin: 100px auto;
+}
+
+.headerMain img {
+  max-width: 50px;
+  max-height: auto;
+  margin: auto 20px;
 }
 
 .headerMain, .links{
   display: flex;
   flex: 1;
-  gap: 30px;
   font-weight: 900;
   align-items: center;
   padding: 10px 30px;
@@ -37,6 +45,7 @@ body {
 .links {
   justify-content: end;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  gap: 40px;
 }
 
 .welcome {
@@ -63,7 +72,8 @@ body {
 /*Header Part Editing*/
 .headerLogoText {
   font-size: 24px;
-  color: #f9faf8
+  color: #f9faf8;
+  text-decoration: underline;
 }
 
 .mainText {
@@ -77,18 +87,22 @@ body {
   color: #e5e7eb;
 }
 
+.links a:hover {
+  color:#c1312a;
+}
 
 
 /*Info Part*/
 .info {
   text-align: center;
-  margin: 120px 60px;
+  margin: 120px 80px;
+  margin-top: 220px;
   background-color: rgba(89, 61, 62, 0.95);
   backdrop-filter: blur(5px);
   color: #e5e7eb;
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
   border-radius: 30px;
-  padding: 70px;
+  padding: 10px;
 }
 
 .info h1 {
@@ -98,15 +112,18 @@ body {
 .items {
   display: flex;
   justify-content: center;
+  flex: 1;
 }
 
 .items img {
   background-color: #1F2937;
-  width: 500px;
-  height: 800px;
+  width: 220px;
+  height: 220px;
+  max-height: 220px;
+  max-width: 220px;
   border: 6px solid #131516;
   border-radius: 30px;
-  padding: 100px 80px;
+  /*padding: 100px 80px;*/
   margin: 50px;
   margin-bottom: 0;
   box-shadow: 0px 0px 20px red;
@@ -126,9 +143,9 @@ body {
 /*Quote Part*/
 .quote {
   width: 100%;
-  padding: 150px 50px;
+  padding: 60px 50px;
   text-align: center;
-  background: linear-gradient(#ccaf83, #c1312a);
+  background: linear-gradient(#1F2937, #c1312a);
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
   color: white;
 }
@@ -160,13 +177,17 @@ body {
 
 
 /*Sign Up Part*/
+.signUp {
+  background-image: url(assets/wangsheng.png);
+  background-size: 140%;
+}
+
 .sign {
   display: flex;
   justify-content: space-between;
   align-items: center;
   /*background-color: #1e1516;*/
   background-image: url(assets/hutaocard.jpg);
-  backdrop-filter: saturate(80%);
   background-size: auto 200%;
   border: 2px solid #131516;
   border-radius: 10px;
@@ -202,9 +223,9 @@ footer {
   justify-content: center;
   background-color: #1F2937;
   border-radius: 30px;
-  font-size: 18px;
+  font-size: 14px;
   color: #e5e7eb;
-  padding: 40px;
+  padding: 20px;
 }
 
 /*Others*/
@@ -214,7 +235,7 @@ a {
 }
 
 button {
-  padding: 15px 0px;
+  padding: 15px 40px;
   max-width: 200px;
   border-radius: 10px;
   background-color: #943934;
@@ -229,3 +250,12 @@ button {
 button:hover {
   background-color: #1e1516;
 }
+
+.welcome button {
+  margin: auto;
+}
+
+/**
+Hu Tao Coffin Dance - https://www.pinterest.ph/pin/7107311902798594/
+Sus Tao - https://www.pinterest.ph/pin/hu-tao--244742560990797824/
+**/
